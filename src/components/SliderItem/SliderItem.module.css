@@ -1,0 +1,119 @@
+.sliderCont{
+    padding-top: 183px;
+}
+.sliderCont h2{
+    padding-bottom: 67px;
+}
+.slider{
+    display: flex;
+
+}
+
+.slide{
+    width: 447px !important;
+    height: 385px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    padding: 58px 30px;
+  }
+  .wrapper{
+    display: flex;
+    align-items: flex-start;
+    gap:45.71px;
+    padding-bottom:36px;
+    border-bottom: 1px dashed #319F1C;
+  }
+  .slide h3{
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
+    color: #363636;
+    font-family: 'Montserrat';
+  }
+  .people{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #797979;
+    margin-top: 12px;
+    margin-bottom: 30px;
+  }
+  .sale{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration-line: line-through;
+    margin-bottom: 10px;
+  }
+  .coast{
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
+    color: #319F1C;
+    display: block;
+    margin-top: 10px;
+  }
+  .character{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .character span{
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 15px;
+  }
+  .first{
+    margin-top: 40px;
+  }
+  .second{
+    margin-top: 15px;
+  }
+  .btnWrapper{
+    padding-top: 49px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .more{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 10px 55.36px 11px 57px;
+    border: 1px solid #363636;
+    border-radius: 3px;
+  }
+  .order{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    background: #319F1C;
+    box-shadow: 0px 4px 8px #64BC45;
+    border-radius: 3px;
+    padding: 10px 66.36px 11px 67px;
+  }
+  .leftArr, .rightArr{
+    background: #319F1C;
+    border: 5px solid #FFFFFF;
+    border-radius: 50%;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
+    height: 74px;
+    width: 74px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .leftArr{
+    position: absolute;
+    top: 490px;
+    left: 205px;
+  }
+  .rightArr{
+    position: absolute;
+    top: 490px;
+    right: 205px;
+  }
+  .section{
+    position: relative;
+  }

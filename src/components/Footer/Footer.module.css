@@ -1,0 +1,43 @@
+.section{
+    background: #363130;
+    padding-top: 39px;
+    padding-bottom: 63px ;
+    position: relative;
+    z-index: 2;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.col1 a{
+    margin-bottom: 52px;
+    display: block;
+}
+.subscribe{
+    margin-bottom: 14px;
+}
+.messengers{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.linkText {
+    margin-top: 34px;
+}
+
+.col2 ul, .col3 ul{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.col4 p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+}

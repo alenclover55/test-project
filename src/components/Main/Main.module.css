@@ -1,0 +1,109 @@
+.wrapper{
+    display: flex;
+    align-items: flex-start;
+    gap: 78px;
+}
+h1{
+    margin-top: 69px;
+    margin-bottom: 78px;
+}
+.imgList{
+    display: flex;
+    flex-direction: column;
+    gap:21px;
+    padding-left: 30px;
+    height: 435px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    direction: rtl;
+}
+
+.imgList img{
+    width: 134px;
+    height: 93px;
+}
+.imgWrapper{
+    display: flex;
+    gap: 21px;
+    align-items: center;
+    
+}
+.bigImg{
+    width: 671px;
+    height: 435px;
+}
+.productInfo p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 30px;
+}
+.productInfo p span{
+    float: right;
+}
+.coast{
+    padding: 25px 21px 22px 21px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    border: 1px solid #319F1C;
+    border-radius: 3px; 
+    display: inline-block;
+    margin-top:129px ;
+}
+.coast span{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 34px;
+    color: #319F1C;
+    margin-left: 16px;
+    
+}
+.h3{
+    margin-top: 54px;
+    margin-bottom: 26px;
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    color: #363636;
+}
+.descr p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+.form h3{
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    color: #363636;
+    margin-top: 64px;
+    margin-bottom: 31px;
+    font-family: 'Montserrat';
+}
+.formWrapper input{
+    width: 482px;
+    height: 45px;
+    margin-bottom: 20px;
+    border: 1px solid #319F1C;
+    border-radius: 3px;
+    padding-left: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+.formWrapper button{
+    width: 506px;
+    height: 45px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    background: #319F1C;
+    box-shadow: 0px 4px 8px #64BC45;
+    border-radius: 3px;
+    border: none;
+}

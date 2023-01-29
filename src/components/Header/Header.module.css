@@ -1,0 +1,64 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 26px;
+    padding-bottom: 36px;
+  }
+  .action img{
+    width:30px;
+    height: 26.25px;
+    border-radius: 50%;
+    border: 7px solid #E4E4E4 ;
+    padding: 11.875px 10px;
+  }
+  .action {
+    display: flex;
+    align-items: center;
+  }
+  .action p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    padding-bottom: 7px;
+    margin-left: 8px;
+    border-bottom:  1px solid rgba(0, 0, 0);;
+  }
+  .action p span {
+    font-family: 'Arial', sans-serif;
+    font-weight: 400;
+  }
+  .work{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .contacts{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  .contacts .phone{
+      width:30px;
+      height: 26.25px;
+      border-radius: 50%;
+      box-shadow: 0px 0px 12px #319F1C;
+      border: 1.5px solid #319F1C;
+      padding: 11.875px 10px;
+  }
+  .messengers{
+    display: flex;
+    align-items: center;
+    gap:25px;
+    justify-content: center;
+    margin-top: 6px;
+  }
+  .number{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 27px;
+    color: #363130;
+  }
+ 

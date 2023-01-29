@@ -1,0 +1,20 @@
+.instruments span{
+    width:87px;
+    height: 64px;
+    background: #fff;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 3px 0px 0px 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.instruments{ 
+    position: fixed;
+    z-index: 1000;
+    top:250px;
+    right:0;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
